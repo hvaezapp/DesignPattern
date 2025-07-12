@@ -1,11 +1,7 @@
 ﻿namespace FactoryExample1
 {
-    public class Tester : Employee
+    public class Tester(string name, string type) : Employee(name, type)
     {
-        public Tester(string name, string type) : base(name, type)
-        {
-
-        }
     }
 
 }

@@ -1,11 +1,7 @@
 ﻿namespace FactoryExample1
 {
-    public class Developer : Employee
+    public class Developer(string name, string type) : Employee(name, type)
     {
-        public Developer(string name, string type) : base(name, type)
-        {
-
-        }
     }
 
 }

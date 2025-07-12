@@ -1,14 +1,9 @@
 ﻿namespace FactoryExample1
 {
-    public class Employee
+    public class Employee(string name, string type)
     {
-        private readonly string _name;
-        private readonly string _type;
-        public Employee(string name, string type)
-        {
-            _name = name;
-            _type = type;
-        }
+        private readonly string _name = name;
+        private readonly string _type = type;
 
         public override string ToString()
         {
