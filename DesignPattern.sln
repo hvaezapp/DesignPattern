@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{FD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverExample1", "Behavioral\Observer\Examples\ObserverExample1\ObserverExample1.csproj", "{C426C4C9-5AE8-478B-87F0-908906B1C180}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverExample2", "Behavioral\Observer\Examples\ObserverExample2\ObserverExample2.csproj", "{0145B31F-55FC-475E-B7C7-EB2EECC2C8E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{C426C4C9-5AE8-478B-87F0-908906B1C180}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C426C4C9-5AE8-478B-87F0-908906B1C180}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C426C4C9-5AE8-478B-87F0-908906B1C180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0145B31F-55FC-475E-B7C7-EB2EECC2C8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0145B31F-55FC-475E-B7C7-EB2EECC2C8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0145B31F-55FC-475E-B7C7-EB2EECC2C8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0145B31F-55FC-475E-B7C7-EB2EECC2C8E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {A655340D-D048-43AC-B228-AFE20755EEAC}
 		{FD634E53-BEEE-42A6-B822-A6E8B23082F8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{C426C4C9-5AE8-478B-87F0-908906B1C180} = {FD634E53-BEEE-42A6-B822-A6E8B23082F8}
+		{0145B31F-55FC-475E-B7C7-EB2EECC2C8E3} = {FD634E53-BEEE-42A6-B822-A6E8B23082F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D066CDC9-6348-4F31-BB5D-749EBEC33CB4}

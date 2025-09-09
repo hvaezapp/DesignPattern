@@ -1,9 +1,8 @@
 ﻿
-namespace FactoryExample2
+namespace FactoryExample2;
+
+public interface IPayment
 {
-    public interface IPayment
-    {
-        void Pay(decimal amount);
-    }
+    void Pay(decimal amount);
 }
 

@@ -1,16 +1,11 @@
 ﻿
-namespace FactoryExample2 
+namespace FactoryExample2; 
+public class Strip : IPayment
 {
-
-    public class Strip : IPayment
+    public void Pay(decimal amount)
     {
-        public void Pay(decimal amount)
-        {
 
-            // TODO
-            Console.WriteLine("Strip operating ... ");
-        }
+        // TODO
+        Console.WriteLine("Strip operating ... ");
     }
-
-
 }
